@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background: rgb(100, 100, 100);
+    color: white;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: darkgray;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-box{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    padding: 0;
+}
+
+.nav-box .title{
+    color: white;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.nav-box form{
+    float: right;
+    margin-top: 25px;
+}
+
+
+
+.nav-box form .things{
+    width: 220px;
+    height: 30px;
+    outline: none;
+    padding-left: 5px;
+    line-height: 15px;
+    font-size: 15px;
+    background: darkgray;
+    color: white;
+    border: none;
+    border-bottom:turquoise solid 2px ;
+}
+
+
+.nav-box input[type="submit"]{
+    background: turquoise;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.main{
+    position: relative;
+    height: auto;
+    width: 100%;
+    top: 100px;
+}
+
+.main .main-box{
+    width: 600px;
+    height: atop;
+    margin: 0 auto;
+}
+
+.main .doing{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.main .did{
+    width: 100%;
+    height: auto;
+}
+
+.main-box .header{
+    width: 100%;
+    height: 20px;
+}
+
+.main-box .header .title{
+    float: left;
+    font-size: 18px;
+}
+
+.main-box .header .thing-num{
+    float: right;
+    font-size: 14px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: turquoise;
+    border-radius: 100%;
+    text-align: center;
+    line-height:  23px;
+}
+
+ol , ul{
+    padding: 0;
+    list-style: none;
+}
+.doing-box{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ ol li{
+    border-left: turquoise solid 5px;
+    width: 100%;
+    height: 30px;
+    color: black;
+    background: white;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+ ol li input[type="checkbox"]{
+    position: relative;
+    top: -3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+ol li p{
+    position: relative;
+    bottom: 8px;
+    left: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+ol li a{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 5px;
+    float: right;
+}
+
+li a img{
+    width: 20px;
+    height: 20px;
+}
+
+ul li{
+    border-left: rgba(150, 150, 150,0.8) solid 5px;
+    width: 100%;
+    height: 30px;
+    color:white;
+    background: rgba(200, 200, 200, 0.2);
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+ul li input[type="checkbox"]{
+    position: relative;
+    top: -3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+ul li p{
+    position: relative;
+    bottom: 8px;
+    left: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+ul li a{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 5px;
+    float: right;
+}
